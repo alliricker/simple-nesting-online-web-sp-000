@@ -66,8 +66,7 @@ end
 def adding_matz
 # add the following information to the top level of programmer_hash
 	programmer_hash =
- 		{     :yukihiro_matsumoto = Hash.new
-			    :grace_hopper => {
+ 		{     :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
